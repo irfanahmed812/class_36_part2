@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tasibh h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.tasibh .btn1 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 18px;
+  padding-left: 18px;
+  background: #ed5f22;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.tasibh .btn2 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 18px;
+  padding-left: 18px;
+  background: #ed5f22;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn1:hover {
+  background: #f56d33ec;
+}
+
+.btn2:hover {
+  background: #f56d33ec;
+}
+
+.tasibh {
+  background-color: #25c0e7;
+  border-radius: 10px;
+  width: 50%;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .tasibh {
+    background-color: #25c0e7;
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
